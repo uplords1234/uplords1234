@@ -29,7 +29,7 @@ public class game extends Canvas implements KeyListener, ActionListener, MouseLi
 		if ( bs== null)
 		{ 
 			System.out.println("Tick-BS");
-			createBufferStrategy(3);
+			createBufferStrategy(2);
 		    return;
 		}
 		
